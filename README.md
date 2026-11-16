@@ -124,6 +124,10 @@ Para añadir un perfil regional, completa el contrato `perfil` de `SKILL.md` con
 
 El plugin no recoge, guarda ni envía datos. Consulta [PRIVACY.md](PRIVACY.md).
 
+## Seguridad
+
+Notifica las vulnerabilidades de forma privada. Consulta [SECURITY.md](SECURITY.md).
+
 ## Licencia
 
 Este proyecto se distribuye bajo la [licencia MIT](LICENSE). Al contribuir, aceptas que tu contribución se publique bajo la misma licencia.
