@@ -1,0 +1,14 @@
+{
+  "name": "espanol-tecnico-claro",
+  "displayName": "Español técnico claro",
+  "version": "0.1.1",
+  "description": "Redacta, revisa, explica y resume textos técnicos en español claro, con perfiles regionales y glosario configurable.",
+  "author": {
+    "name": "Ricardo Guillén Gracia",
+    "url": "https://github.com/guigra"
+  },
+  "homepage": "https://github.com/guigra/espanol-tecnico-claro",
+  "repository": "https://github.com/guigra/espanol-tecnico-claro",
+  "license": "MIT",
+  "keywords": ["spanish", "espanol", "plain-language", "lenguaje-claro", "technical-writing", "redaccion-tecnica"]
+}

@@ -2,7 +2,7 @@
 
 Skill portable en formato [Agent Skills](https://agentskills.io/specification) para redactar, revisar, explicar y resumir textos técnicos en español claro, con perfiles regionales y un glosario corporativo configurable.
 
-**Versión:** 0.1.0 · **Autor:** Ricardo Guillén Gracia · **Licencia:** [MIT](LICENSE)
+**Versión:** 0.1.1 · **Autor:** Ricardo Guillén Gracia · **Licencia:** [MIT](LICENSE)
 
 ## Qué hace
 
@@ -20,10 +20,12 @@ Valores iniciales: `es-ES`, modo claro, tú, audiencia técnica.
 ## Contenido
 
 ```
-espanol-tecnico-claro/
-├── SKILL.md              # Reglas, configuración, perfiles regionales y glosario
-└── agents/
-    └── openai.yaml       # Metadatos opcionales para herramientas OpenAI
+skills/
+└── espanol-tecnico-claro/
+    ├── SKILL.md          # Reglas, configuración, perfiles regionales y glosario
+    └── agents/
+        └── openai.yaml   # Metadatos opcionales para herramientas OpenAI
+.claude-plugin/           # Manifiesto de plugin y marketplace para Claude Code
 USO.md                    # Guía detallada de instalación y uso
 ```
 
@@ -31,18 +33,31 @@ No necesita Python, API, red ni un modelo concreto.
 
 ## Instalación
 
-### Aplicaciones compatibles con Agent Skills
+### Con skills.sh (cualquier agente compatible)
 
-Copia la carpeta `espanol-tecnico-claro` completa en el directorio de skills de tu aplicación. Mantén los nombres de la carpeta y de `SKILL.md`.
+```bash
+npx skills add guigra/espanol-tecnico-claro
+```
 
-Ejemplos:
+### Claude Code, como plugin
+
+```bash
+claude plugin marketplace add guigra/espanol-tecnico-claro
+claude plugin install espanol-tecnico-claro@guigra-skills
+```
+
+Para actualizar: `claude plugin update espanol-tecnico-claro@guigra-skills`.
+
+### Copia manual
+
+Descarga el zip de la [última versión](https://github.com/guigra/espanol-tecnico-claro/releases/latest) o clona el repositorio. Copia la carpeta `skills/espanol-tecnico-claro` completa en el directorio de skills de tu aplicación. Mantén los nombres de la carpeta y de `SKILL.md`.
 
 ```bash
 # Claude Code (personal)
-cp -R espanol-tecnico-claro ~/.claude/skills/
+cp -R skills/espanol-tecnico-claro ~/.claude/skills/
 
 # Codex local (personal)
-cp -R espanol-tecnico-claro ~/.agents/skills/
+cp -R skills/espanol-tecnico-claro ~/.agents/skills/
 ```
 
 Si no aparece la skill, reinicia el cliente. En Codex, actívala con `$espanol-tecnico-claro`.

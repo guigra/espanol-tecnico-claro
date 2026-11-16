@@ -1,0 +1,15 @@
+{
+  "name": "guigra-skills",
+  "description": "Skills de Ricardo Guillén Gracia para redacción técnica en español.",
+  "owner": {
+    "name": "Ricardo Guillén Gracia",
+    "url": "https://github.com/guigra"
+  },
+  "plugins": [
+    {
+      "name": "espanol-tecnico-claro",
+      "source": "./",
+      "description": "Redacta, revisa, explica y resume textos técnicos en español claro, con perfiles regionales y glosario configurable."
+    }
+  ]
+}

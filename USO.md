@@ -1,14 +1,14 @@
-# Español técnico claro · 0.1.0
+# Español técnico claro · 0.1.1
 
 ## Contenido y compatibilidad
 
-La carpeta espanol-tecnico-claro es una skill de instrucciones en formato Agent Skills. SKILL.md contiene todas las reglas, la configuración inicial, los perfiles regionales y el glosario. agents/openai.yaml contiene metadatos opcionales para herramientas OpenAI; los demás clientes pueden ignorarlo.
+La carpeta skills/espanol-tecnico-claro es una skill de instrucciones en formato Agent Skills. SKILL.md contiene todas las reglas, la configuración inicial, los perfiles regionales y el glosario. agents/openai.yaml contiene metadatos opcionales para herramientas OpenAI; los demás clientes pueden ignorarlo.
 
 No necesita Python, API, red ni un modelo concreto para redactar. La búsqueda de fuentes solo es necesaria cuando el encargo pide verificación externa. La compatibilidad depende de la aplicación que ejecuta el modelo, no del modelo por sí solo. Validación estructural realizada; no se ha probado la instalación en cada producto.
 
 ## Aplicaciones compatibles con Agent Skills
 
-Extrae el archivo y usa la carpeta espanol-tecnico-claro completa. Instálala en el directorio de skills o mediante el importador documentado por tu aplicación. Mantén el nombre SKILL.md y el nombre de la carpeta. No adjuntes el archivo .zip esperando que todas las aplicaciones lo importen: el archivo es de distribución y cada importador puede exigir otro formato.
+Extrae el archivo y usa la carpeta skills/espanol-tecnico-claro completa. Instálala en el directorio de skills o mediante el importador documentado por tu aplicación. Mantén el nombre SKILL.md y el nombre de la carpeta. No adjuntes el archivo .zip esperando que todas las aplicaciones lo importen: el archivo es de distribución y cada importador puede exigir otro formato.
 
 En Codex local, la documentación consultada indica ~/.agents/skills como ubicación personal. Copia allí la carpeta completa. Actívala con $espanol-tecnico-claro; si no aparece, reinicia el cliente.
 

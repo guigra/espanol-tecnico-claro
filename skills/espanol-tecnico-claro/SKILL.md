@@ -11,7 +11,7 @@ license: MIT
 Aplicar los valores predeterminados siguientes. Admitir cambios expresos por encargo sin modificar los valores persistentes salvo petición del usuario.
 
 ```yaml
-version: 0.1.0
+version: 0.1.1
 idioma: es
 variante: es-ES
 modo: claro
