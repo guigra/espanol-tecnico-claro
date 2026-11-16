@@ -120,6 +120,10 @@ Para añadir un perfil regional, completa el contrato `perfil` de `SKILL.md` con
 - UNE-ISO 24495-1:2024, principios generales de lenguaje claro
 - Gobbi, Ilaria (2014), [Spagnolo Tecnico Semplificato](https://amsdottorato.unibo.it/id/eprint/6681/)
 
+## Privacidad
+
+El plugin no recoge, guarda ni envía datos. Consulta [PRIVACY.md](PRIVACY.md).
+
 ## Licencia
 
 Este proyecto se distribuye bajo la [licencia MIT](LICENSE). Al contribuir, aceptas que tu contribución se publique bajo la misma licencia.
