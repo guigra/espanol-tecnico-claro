@@ -1,0 +1,4 @@
+interface:
+  display_name: "Español técnico claro"
+  short_description: "Redacción clara con variantes y glosario corporativo"
+  default_prompt: "Usa $espanol-tecnico-claro para revisar este texto en español de España con el glosario corporativo."
